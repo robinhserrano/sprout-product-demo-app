@@ -8,7 +8,7 @@ class ProductDetailsModel with _$ProductDetailsModel {
   const factory ProductDetailsModel({
     required int id,
     required String title,
-    required String description, 
+    required String description,
     required double price,
     required double discountPercentage,
     required double rating,
@@ -27,7 +27,7 @@ class ProductDetailsModel with _$ProductDetailsModel {
   ProductDetailsEntity get toEntity => ProductDetailsEntity(
         id: id,
         title: title,
-        description: description, 
+        description: description,
         price: price,
         discountPercentage: discountPercentage,
         rating: rating,

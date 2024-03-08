@@ -14,7 +14,8 @@ class ProductCard extends StatelessWidget {
         ProductDetailsPage.name,
         pathParameters: {'productId': product.id.toString()},
       ),
-      child: SizedBox(height: 200,
+      child: SizedBox(
+        height: 200,
         child: Card(
           elevation: 0,
           shape: RoundedRectangleBorder(

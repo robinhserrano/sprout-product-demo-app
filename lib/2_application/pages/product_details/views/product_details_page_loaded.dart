@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:sprout_mobile_exam_serrano/1_domain/1_domain/entities/product_details_entity.dart';
 import 'package:sprout_mobile_exam_serrano/2_application/pages/product_details/widgets/image_slider.dart';
