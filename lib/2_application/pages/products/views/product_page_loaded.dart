@@ -21,7 +21,7 @@ class ProductsPageLoaded extends HookWidget {
       () {
         controller.addListener(() async {
           final shouldFetchMore =
-              controller.position.maxScrollExtent == controller.offset; 
+              controller.position.maxScrollExtent == controller.offset;
 
           if (shouldFetchMore) {
             isLoadingMore.value = true;
