@@ -14,3 +14,5 @@ Steps to run:
 - flutter pub run build_runner build --delete-conflicting-outputs
 - flutter run
 
+## Important links
+- https://github.com/robinhserrano/sprout-product-demo-app
